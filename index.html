@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shibam's Fun Zone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🎉 Welcome to Shibam's Fun Zone! 🎉</h1>
+            <p>Where coding meets creativity!</p>
+        </div>
+    </header>
+
+    <section id="intro">
+        <div class="container">
+            <h2>Who am I? 🤔</h2>
+            <p>Just a tech enthusiast with a sprinkle of awesomeness and a passion for fun! 🌟</p>
+        </div>
+    </section>
+
+    <section id="games">
+        <div class="container">
+            <h2>🎮 Let's Play a Game!</h2>
+            <button id="funButton">Click Me for a Surprise! 🎁</button>
+            <p id="funMessage" style="margin-top: 1rem; font-size: 1.2rem; display: none;">Surprise! You're amazing. Keep being awesome! 🌟</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>📫 Connect with Me</h2>
+            <p>Email me at: <a href="mailto:fun@shivamzone.com">fun@shivamzone.com</a></p>
+            <p>Find me on <a href="#" target="_blank">LinkedIn</a> or <a href="#" target="_blank">GitHub</a>!</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Shibam's Fun Zone. Made with 💖 and a touch of whimsy!</p>
+    </footer>
+
+    <script>
+        document.getElementById('funButton').addEventListener('click', () => {
+            const message = document.getElementById('funMessage');
+            message.style.display = 'block';
+        });
+    </script>
+</body>
+</html>
